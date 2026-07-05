@@ -1,1 +1,8 @@
 body{font-family:Arial,sans-serif;max-width:900px;margin:auto;padding:20px;background:#f7f7f7}header{background:#0057B7;color:#fff;padding:20px}a{color:#0057B7}h1{margin:0}
+.header{
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    gap:25px;
+    padding:30px;
+}
