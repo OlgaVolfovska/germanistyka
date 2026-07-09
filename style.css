@@ -242,3 +242,8 @@ font-size:35px;
 cursor:pointer;
 
 }
+
+#main-title-link {
+    color: inherit;
+    text-decoration: none;
+}
