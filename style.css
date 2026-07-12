@@ -61,8 +61,6 @@ nav a:hover{
 
 .cards{
 
-    background-color: #DFF4FF;
-    
     display:flex;
 
     justify-content:center;
@@ -79,7 +77,7 @@ nav a:hover{
 
 .card{
 
-    background:white;
+    background-color: #EAF4FF;
 
     width:300px;
 
