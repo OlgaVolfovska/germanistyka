@@ -258,17 +258,26 @@ cursor:pointer;
 
 .mini-blocks {
     display: flex;
-    gap: 15px;
-    justify-content: center;
-    margin: 20px 0;
+    gap: 20px;
+    justify-content: space-between;
+    width: 100%;
 }
 
 .mini-block {
-    width: 180px;
-    padding: 15px;
-    background: #f8f8f8;
-    border: 1px solid #ddd;
-    border-radius: 8px;
-    text-align: justify;
-    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    flex: 1;
+    max-width: 350px;
+    .mini-blocks {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    width: 100%;
+}
+
+.mini-block {
+    flex: 1;          
+    max-width: 350px; 
+    padding: 20px;
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.15);
 }
