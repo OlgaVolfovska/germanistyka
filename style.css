@@ -259,7 +259,7 @@ cursor:pointer;
 .mini-blocks {
     display: flex;
     gap: 15px;
-    justify-content: center;
+    justify-content: justify;
     margin: 20px 0;
 }
 
